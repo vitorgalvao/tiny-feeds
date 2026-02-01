@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3796704",
+      "url": "https://tapas.io/episode/3796704",
+      "title": "What I Love About You",
+      "content_html": "<img src='https://us-a.tapas.io/c/47/366b5c79-f924-43d4-91e3-5fa387a75379.png'><br><img src='https://us-a.tapas.io/c/04/fc124f80-deda-45f4-b182-81f32dacde30.gif'>"
+    },
+    {
       "id": "3794416",
       "url": "https://tapas.io/episode/3794416",
       "title": "Hot Commodity",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3781704",
       "title": "Chill Pill",
       "content_html": "<img src='https://us-a.tapas.io/c/4a/f19c3256-4e59-429c-9f92-13ac298eec5c.png'><br><img src='https://us-a.tapas.io/c/df/c50cf568-b53e-4815-84b9-8f458a491a1b.gif'>"
-    },
-    {
-      "id": "3778774",
-      "url": "https://tapas.io/episode/3778774",
-      "title": "Love Finds a Way",
-      "content_html": "<img src='https://us-a.tapas.io/c/8e/d74c5770-3eb4-4783-af6f-6f9b30bb0bc3.png'><br><img src='https://us-a.tapas.io/c/45/ffb66444-a9f1-48d0-b11a-65f3cbf8943d.gif'>"
     }
   ]
 }

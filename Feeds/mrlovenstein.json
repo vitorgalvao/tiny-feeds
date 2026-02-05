@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3800910",
+      "url": "https://tapas.io/episode/3800910",
+      "title": "All the Rage",
+      "content_html": "<img src='https://us-a.tapas.io/c/86/9497c8ba-6b36-4b6c-b9ae-7a72f385c9a1.png'><br><img src='https://us-a.tapas.io/c/67/c8293a43-e0db-4ebd-8c6a-a6fc55f8e0b9.gif'>"
+    },
+    {
       "id": "3796704",
       "url": "https://tapas.io/episode/3796704",
       "title": "What I Love About You",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3786405",
       "title": "Smile More",
       "content_html": "<img src='https://us-a.tapas.io/c/66/4f19cc58-6c4c-4342-8657-cfb513662d5c.png'><br><img src='https://us-a.tapas.io/c/63/0d8fe75d-ab1d-4b78-a27f-de655301cfbb.gif'>"
-    },
-    {
-      "id": "3781704",
-      "url": "https://tapas.io/episode/3781704",
-      "title": "Chill Pill",
-      "content_html": "<img src='https://us-a.tapas.io/c/4a/f19c3256-4e59-429c-9f92-13ac298eec5c.png'><br><img src='https://us-a.tapas.io/c/df/c50cf568-b53e-4815-84b9-8f458a491a1b.gif'>"
     }
   ]
 }

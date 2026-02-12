@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3807531",
+      "url": "https://tapas.io/episode/3807531",
+      "title": "Significant",
+      "content_html": "<img src='https://us-a.tapas.io/c/30/1acc7eae-319a-4821-a7d3-67b777ae0d8a.png'><br><img src='https://us-a.tapas.io/c/d6/05b3121f-30c7-4812-8061-966f8ee39546.gif'>"
+    },
+    {
       "id": "3800910",
       "url": "https://tapas.io/episode/3800910",
       "title": "All the Rage",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3791368",
       "title": "Checked Out",
       "content_html": "<img src='https://us-a.tapas.io/c/a1/880a13c7-3fd0-449c-867d-4943bc8453b0.png'><br><img src='https://us-a.tapas.io/c/a0/cbd9cd51-25c9-4bd3-869f-f3907507b306.gif'>"
-    },
-    {
-      "id": "3786405",
-      "url": "https://tapas.io/episode/3786405",
-      "title": "Smile More",
-      "content_html": "<img src='https://us-a.tapas.io/c/66/4f19cc58-6c4c-4342-8657-cfb513662d5c.png'><br><img src='https://us-a.tapas.io/c/63/0d8fe75d-ab1d-4b78-a27f-de655301cfbb.gif'>"
     }
   ]
 }

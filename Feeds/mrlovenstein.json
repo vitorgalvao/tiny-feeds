@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3812781",
+      "url": "https://tapas.io/episode/3812781",
+      "title": "Word of the Lord HD",
+      "content_html": "<img src='https://us-a.tapas.io/c/ab/9153d42e-838d-45b9-8d97-e74b860b6957.png'><br><img src='https://us-a.tapas.io/c/ec/38921d58-1132-4fc3-aadd-bf47033530af.gif'>"
+    },
+    {
       "id": "3807531",
       "url": "https://tapas.io/episode/3807531",
       "title": "Significant",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3794416",
       "title": "Hot Commodity",
       "content_html": "<img src='https://us-a.tapas.io/c/35/fdc4c2fd-13c2-42fc-b734-dcd686bfc7ae.png'><br><img src='https://us-a.tapas.io/c/db/5b3ddd17-b4a8-4a6a-9662-60e9ed236934.gif'>"
-    },
-    {
-      "id": "3791368",
-      "url": "https://tapas.io/episode/3791368",
-      "title": "Checked Out",
-      "content_html": "<img src='https://us-a.tapas.io/c/a1/880a13c7-3fd0-449c-867d-4943bc8453b0.png'><br><img src='https://us-a.tapas.io/c/a0/cbd9cd51-25c9-4bd3-869f-f3907507b306.gif'>"
     }
   ]
 }

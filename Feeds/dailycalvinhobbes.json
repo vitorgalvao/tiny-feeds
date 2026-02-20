@@ -1,0 +1,13 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Daily Calvin and Hobbes on Imgur",
+  "home_page_url": "https://imgur.com/user/PepperoniAndFingernailPizza",
+  "items": [
+    {
+      "id": "NScIHAX",
+      "url": "https://imgur.com/gallery/day-176-of-posting-calvin-hobbes-comics-every-day-NScIHAX",
+      "title": "Day 176 of posting Calvin and Hobbes Comics every day.",
+      "content_html": "<img src=\"https://i.imgur.com/NScIHAX.png\">"
+    }
+  ]
+}

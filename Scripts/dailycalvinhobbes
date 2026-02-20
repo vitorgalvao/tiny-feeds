@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# Local file setup
+readonly program="$(realpath "${0}")"
+readonly feeds_dir="$(dirname "$(dirname "${program}")")/Feeds"
+readonly feed_file="${feeds_dir}/$(basename "${program}").json"
+readonly tmp_file="$(mktemp)"
+
+# Strategy to get feed details
+readonly source_url='https://api.imgur.com/post/v1/accounts/PepperoniAndFingernailPizza/submissions?client_id=d70305e7c3ac5c6&include=media&page=0&sort=-gallery_id'
+readonly top_entry="$(curl --silent "${source_url}" | jq '.[0]')"
+readonly top_id="$(jq --raw-output '.id' <<< "${top_entry}")"
+readonly top_url="$(jq --raw-output '.url' <<< "${top_entry}")"
+readonly top_title="$(jq --raw-output '.title' <<< "${top_entry}")"
+readonly top_media="$(jq --raw-output '.media[] | select(.type == "image") | "<img src=\"\(.url)\">"' <<< "${top_entry}")"
+
+# Exit early if item already in feed
+[[ "$(jq --raw-output '.items[0].id' "${feed_file}")" == "${top_id}" ]] && exit 0
+
+# Add to feed, keeping only the most recent five
+jq \
+  --arg id "${top_id}" \
+  --arg url "${top_url}" \
+  --arg title "${top_title}" \
+  --arg html "${top_media}" \
+  '.items = ([{ id: $id, url: $url, title: $title, content_html: $html }] + (.items // [])) | .items = (.items[0:5])' \
+  "${feed_file}" > "${tmp_file}"
+
+mv "${tmp_file}" "${feed_file}"

@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3826043",
+      "url": "https://tapas.io/episode/3826043",
+      "title": "Peace and Quiet",
+      "content_html": "<img src='https://us-a.tapas.io/c/89/1aef30ae-b26d-4e91-867b-1430515e201c.png'><br><img src='https://us-a.tapas.io/c/4b/795e6bf3-5865-4691-b4f3-0b39d79955f3.gif'>"
+    },
+    {
       "id": "3820469",
       "url": "https://tapas.io/episode/3820469",
       "title": "Complex",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3807531",
       "title": "Significant",
       "content_html": "<img src='https://us-a.tapas.io/c/30/1acc7eae-319a-4821-a7d3-67b777ae0d8a.png'><br><img src='https://us-a.tapas.io/c/d6/05b3121f-30c7-4812-8061-966f8ee39546.gif'>"
-    },
-    {
-      "id": "3800910",
-      "url": "https://tapas.io/episode/3800910",
-      "title": "All the Rage",
-      "content_html": "<img src='https://us-a.tapas.io/c/86/9497c8ba-6b36-4b6c-b9ae-7a72f385c9a1.png'><br><img src='https://us-a.tapas.io/c/67/c8293a43-e0db-4ebd-8c6a-a6fc55f8e0b9.gif'>"
     }
   ]
 }

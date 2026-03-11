@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3831287",
+      "url": "https://tapas.io/episode/3831287",
+      "title": "Cry Baby",
+      "content_html": "<img src='https://us-a.tapas.io/c/08/27d71cda-d898-4a90-9a09-371afaa614e2.png'><br><img src='https://us-a.tapas.io/c/ab/63822352-8c64-4487-9081-b72b8418ffb1.gif'>"
+    },
+    {
       "id": "3826043",
       "url": "https://tapas.io/episode/3826043",
       "title": "Peace and Quiet",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3812781",
       "title": "Word of the Lord HD",
       "content_html": "<img src='https://us-a.tapas.io/c/ab/9153d42e-838d-45b9-8d97-e74b860b6957.png'><br><img src='https://us-a.tapas.io/c/ec/38921d58-1132-4fc3-aadd-bf47033530af.gif'>"
-    },
-    {
-      "id": "3807531",
-      "url": "https://tapas.io/episode/3807531",
-      "title": "Significant",
-      "content_html": "<img src='https://us-a.tapas.io/c/30/1acc7eae-319a-4821-a7d3-67b777ae0d8a.png'><br><img src='https://us-a.tapas.io/c/d6/05b3121f-30c7-4812-8061-966f8ee39546.gif'>"
     }
   ]
 }

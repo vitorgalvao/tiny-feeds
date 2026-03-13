@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3832755",
+      "url": "https://tapas.io/episode/3832755",
+      "title": "Crash Course",
+      "content_html": "<img src='https://us-a.tapas.io/c/e6/84b96e86-6422-47e3-9337-eb01e2fbf48b.png'><br><img src='https://us-a.tapas.io/c/b2/25e9b3be-5f4a-4456-bc95-1ceb3f85411a.gif'>"
+    },
+    {
       "id": "3831287",
       "url": "https://tapas.io/episode/3831287",
       "title": "Cry Baby",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3818670",
       "title": "Pro Procrastination",
       "content_html": "<img src='https://us-a.tapas.io/c/08/1dbea773-f585-4cac-993a-96babee92e49.png'><br><img src='https://us-a.tapas.io/c/ee/9927895a-8913-48c8-b84b-63da150bf308.gif'>"
-    },
-    {
-      "id": "3812781",
-      "url": "https://tapas.io/episode/3812781",
-      "title": "Word of the Lord HD",
-      "content_html": "<img src='https://us-a.tapas.io/c/ab/9153d42e-838d-45b9-8d97-e74b860b6957.png'><br><img src='https://us-a.tapas.io/c/ec/38921d58-1132-4fc3-aadd-bf47033530af.gif'>"
     }
   ]
 }

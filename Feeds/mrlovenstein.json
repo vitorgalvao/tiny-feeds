@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3842649",
+      "url": "https://tapas.io/episode/3842649",
+      "title": "Irresistible",
+      "content_html": "<img src='https://us-a.tapas.io/c/54/49f88770-3308-4d5f-806e-f60c564c9e6d.png'><br><img src='https://us-a.tapas.io/c/c0/eeda19be-bbf2-457d-b65f-088c239608b2.gif'>"
+    },
+    {
       "id": "3837607",
       "url": "https://tapas.io/episode/3837607",
       "title": "Health Scare",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3826043",
       "title": "Peace and Quiet",
       "content_html": "<img src='https://us-a.tapas.io/c/89/1aef30ae-b26d-4e91-867b-1430515e201c.png'><br><img src='https://us-a.tapas.io/c/4b/795e6bf3-5865-4691-b4f3-0b39d79955f3.gif'>"
-    },
-    {
-      "id": "3820469",
-      "url": "https://tapas.io/episode/3820469",
-      "title": "Complex",
-      "content_html": "<img src='https://us-a.tapas.io/c/e8/5227c610-9d9c-4bdd-aad2-667e136fbda4.png'><br><img src='https://us-a.tapas.io/c/e8/bcecf7be-dce9-4937-8f23-da9b3eeb500e.gif'>"
     }
   ]
 }

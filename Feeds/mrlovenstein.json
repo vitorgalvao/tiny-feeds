@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "3848799",
+      "url": "https://tapas.io/episode/3848799",
+      "title": "Stendhal Syndrome",
+      "content_html": "<img src='https://us-a.tapas.io/c/a8/b4f7d393-c03f-400d-b055-baee783aca0d.png'><br><img src='https://us-a.tapas.io/c/5f/b133c49f-aa4c-454b-b554-4d06ef913fd5.gif'>"
+    },
+    {
       "id": "3842649",
       "url": "https://tapas.io/episode/3842649",
       "title": "Irresistible",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3831287",
       "title": "Cry Baby",
       "content_html": "<img src='https://us-a.tapas.io/c/08/27d71cda-d898-4a90-9a09-371afaa614e2.png'><br><img src='https://us-a.tapas.io/c/ab/63822352-8c64-4487-9081-b72b8418ffb1.gif'>"
-    },
-    {
-      "id": "3826043",
-      "url": "https://tapas.io/episode/3826043",
-      "title": "Peace and Quiet",
-      "content_html": "<img src='https://us-a.tapas.io/c/89/1aef30ae-b26d-4e91-867b-1430515e201c.png'><br><img src='https://us-a.tapas.io/c/4b/795e6bf3-5865-4691-b4f3-0b39d79955f3.gif'>"
     }
   ]
 }

@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# Local file setup
+readonly program="$(realpath "${0}")"
+readonly feeds_dir="$(dirname "$(dirname "${program}")")/Feeds"
+readonly feed_file="${feeds_dir}/$(basename "${program}").json"
+readonly tmp_file="$(mktemp)"
+
+# Strategy to get feed details
+readonly source_url='https://tinyview.com/the-other-end/feed.rss'
+readonly top_url="$(curl --silent "${source_url}" | xmllint --xpath 'string(/rss/channel/item[1]/link)' -)"
+readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"
+readonly top_contents="$(curl --silent "${top_url}")"
+readonly top_title="$(xmllint --html --xpath 'string(//h1)' - <<< "${top_contents}" 2>/dev/null)"
+readonly top_media="$(xmllint --html --xpath '//div[@id="main-content-scroll"]//div[@class="mt-5"]//img[not(@src = preceding::img/@src)]/@src' - <<< "${top_contents}" 2>/dev/null | sed 's/^/<img/;s/$/>/')"
+
+# Exit early if item already in feed
+[[ "$(jq --raw-output '.items[0].id' "${feed_file}")" == "${top_id}" ]] && exit 0
+
+# Add to feed, keeping only the most recent five
+jq \
+  --arg id "${top_id}" \
+  --arg url "${top_url}" \
+  --arg title "${top_title}" \
+  --arg html "${top_media}" \
+  '.items = ([{ id: $id, url: $url, title: $title, content_html: $html }] + (.items // [])) | .items = (.items[0:5])' \
+  "${feed_file}" > "${tmp_file}"
+
+mv "${tmp_file}" "${feed_file}"

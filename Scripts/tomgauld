@@ -6,6 +6,14 @@ readonly feeds_dir="$(dirname "$(dirname "${program}")")/Feeds"
 readonly feed_file="${feeds_dir}/$(basename "${program}").json"
 readonly tmp_file="$(mktemp)"
 
+# Initial feed setup
+[[ -f "${feed_file}" ]] || printf '{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "%s",
+  "home_page_url": "%s",
+  "items": []
+}' 'Tom Gauld' 'https://myjetpack.tumblr.com/' > "${feed_file}"
+
 # Strategy to get feed details
 readonly source_url='https://myjetpack.tumblr.com/rss'
 readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"

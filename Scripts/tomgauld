@@ -19,7 +19,7 @@ readonly source_url='https://myjetpack.tumblr.com/rss'
 readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
 readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
 
-# Exit early if title does not contain "cartoon"
+# Exit early if title does not contain what we are filtering for
 grep --ignore-case --quiet 'cartoon' <<< "${top_title}" || exit 0
 
 # Continue strategy

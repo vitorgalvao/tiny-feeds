@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# Local file setup
+readonly program="$(realpath "${0}")"
+readonly feeds_dir="$(dirname "$(dirname "${program}")")/Feeds"
+readonly feed_file="${feeds_dir}/$(basename "${program}").json"
+readonly tmp_file="$(mktemp)"
+
+# Initial feed setup
+[[ -f "${feed_file}" ]] || printf '{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "%s",
+  "home_page_url": "%s",
+  "items": []
+}' 'Newgrounds Monthly Best Of' 'https://www.newgrounds.com/' > "${feed_file}"
+
+# Strategy to get feed details
+readonly source_url='https://rss.ngfiles.com/sitenews.xml'
+readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
+readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
+
+# Exit early if title does not contain what we are filtering for
+grep --quiet 'Best of' <<< "${top_title}" || exit 0
+
+# Continue strategy
+readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
+readonly top_id="${top_url}"
+readonly top_media="$(xmllint --xpath 'string(/item/description)' - <<< "${top_item}")"
+
+# Exit early if item already in feed
+[[ "$(jq --raw-output '.items[0].id' "${feed_file}")" == "${top_id}" ]] && exit 0
+
+# Add to feed, keeping only the most recent five
+jq \
+  --arg id "${top_id}" \
+  --arg url "${top_url}" \
+  --arg title "${top_title}" \
+  --arg html "${top_media}" \
+  '.items = ([{ id: $id, url: $url, title: $title, content_html: $html }] + (.items // [])) | .items = (.items[0:5])' \
+  "${feed_file}" > "${tmp_file}"
+
+mv "${tmp_file}" "${feed_file}"

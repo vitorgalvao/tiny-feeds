@@ -16,10 +16,11 @@ readonly tmp_file="$(mktemp)"
 
 # Strategy to get feed details
 readonly source_url='https://tapas.io/rss/series/3346/'
-readonly top_url="$(curl --silent "${source_url}" | xmllint --xpath 'string(/rss/channel/item[1]/link)' -)"
+readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
+readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
+readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
 readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"
 readonly top_contents="$(curl --silent "${top_url}")"
-readonly top_title="$(xmllint --html --xpath "string(//*[@id='episode-${top_id}']/div[1]/div/p[1])" - <<< "${top_contents}" 2>/dev/null | sed 's/\?.*//')"
 readonly top_media="$(xmllint --html --xpath "string(//*[@id='episode-${top_id}']/div[1]/article/img[1]/@data-src)" - <<< "${top_contents}" 2>/dev/null | sed 's/\?.*//')"
 readonly top_bonus="$(xmllint --html --xpath "string(//*[@id='episode-${top_id}']/div[1]/article/img[2]/@data-src)" - <<< "${top_contents}" 2>/dev/null | sed 's/\?.*//')"
 

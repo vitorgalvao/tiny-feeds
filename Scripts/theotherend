@@ -16,10 +16,11 @@ readonly tmp_file="$(mktemp)"
 
 # Strategy to get feed details
 readonly source_url='https://tinyview.com/the-other-end/feed.rss'
-readonly top_url="$(curl --silent "${source_url}" | xmllint --xpath 'string(/rss/channel/item[1]/link)' -)"
+readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
+readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
+readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
 readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"
 readonly top_contents="$(curl --silent "${top_url}")"
-readonly top_title="$(xmllint --html --xpath 'string(//h1)' - <<< "${top_contents}" 2>/dev/null)"
 readonly top_media="$(xmllint --html --xpath '//div[@id="main-content-scroll"]//div[@class="mt-5"]//img[not(@src = preceding::img/@src)]/@src' - <<< "${top_contents}" 2>/dev/null | sed 's/^/<img/;s/$/>/')"
 
 # Exit early if item already in feed

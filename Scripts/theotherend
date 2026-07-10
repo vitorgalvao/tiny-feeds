@@ -17,6 +17,12 @@ readonly tmp_file="$(mktemp)"
 # Strategy to get feed details
 readonly source_url='https://tinyview.com/the-other-end/feed.rss'
 readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
+
+# Exit early if item has publication date in the future (not available yet)
+readonly top_date="$(xmllint --xpath 'string(/item/pubDate)' - <<< "${top_item}")"
+readonly top_epoch="$(date -d "${top_date}" '+%s' || date -j -f "%a, %d %b %Y %H:%M:%S %Z" "${top_date}" '+%s')" # Handle both GNU and BSD date
+[[ "$(date '+%s')" -lt "${top_epoch}" ]] && exit 0
+
 readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
 readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
 readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"

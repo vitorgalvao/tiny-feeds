@@ -12,17 +12,22 @@ readonly tmp_file="$(mktemp)"
   "title": "%s",
   "home_page_url": "%s",
   "items": []
-}' 'Mr. Lovenstein' 'https://tapas.io/series/MrLovenstein/info' > "${feed_file}"
+}' 'Mr. Lovenstein' 'https://tinyview.com/mrlovenstein' > "${feed_file}"
 
 # Strategy to get feed details
-readonly source_url='https://tapas.io/rss/series/3346/'
+readonly source_url='https://tinyview.com/mrlovenstein/feed.rss'
 readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
+
+# Exit early if item has publication date in the future (not available yet)
+readonly top_date="$(xmllint --xpath 'string(/item/pubDate)' - <<< "${top_item}")"
+readonly top_epoch="$(date -d "${top_date}" '+%s' || date -j -f "%a, %d %b %Y %H:%M:%S %Z" "${top_date}" '+%s')" # Handle both GNU and BSD date
+[[ "$(date '+%s')" -lt "${top_epoch}" ]] && exit 0
+
 readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
 readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
 readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"
 readonly top_contents="$(curl --silent "${top_url}")"
-readonly top_media="$(xmllint --html --xpath "string(//*[@id='episode-${top_id}']/div[1]/article/img[1]/@data-src)" - <<< "${top_contents}" 2>/dev/null | sed 's/\?.*//')"
-readonly top_bonus="$(xmllint --html --xpath "string(//*[@id='episode-${top_id}']/div[1]/article/img[2]/@data-src)" - <<< "${top_contents}" 2>/dev/null | sed 's/\?.*//')"
+readonly top_media="$(xmllint --html --xpath '//div[@id="main-content-scroll"]//div[@class="mt-5"]//img[not(@src = preceding::img/@src)]/@src' - <<< "${top_contents}" 2>/dev/null | sed 's/^/<img/;s/$/>/')"
 
 # Exit early if item already in feed
 [[ "$(jq --raw-output '.items[0].id' "${feed_file}")" == "${top_id}" ]] && exit 0
@@ -32,7 +37,7 @@ jq \
   --arg id "${top_id}" \
   --arg url "${top_url}" \
   --arg title "${top_title}" \
-  --arg html "<img src='${top_media}'><br><img src='${top_bonus}'>" \
+  --arg html "${top_media}" \
   '.items = ([{ id: $id, url: $url, title: $title, content_html: $html }] + (.items // [])) | .items = (.items[0:5])' \
   "${feed_file}" > "${tmp_file}"
 

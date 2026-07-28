@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "cool-place",
+      "url": "https://tinyview.com/mrlovenstein/2026/07/27/cool-place",
+      "title": "Cool Place",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/5.png\">"
+    },
+    {
       "id": "old",
       "url": "https://tinyview.com/mrlovenstein/2026/07/23/old",
       "title": "Old",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3837607",
       "title": "Health Scare",
       "content_html": "<img src='https://us-a.tapas.io/c/f7/d4cb0221-f6cf-449f-a517-5025ec84d13a.png'><br><img src='https://us-a.tapas.io/c/5f/51b4c5b6-2e02-4081-b89a-42c424ab9243.gif'>"
-    },
-    {
-      "id": "3832755",
-      "url": "https://tapas.io/episode/3832755",
-      "title": "Crash Course",
-      "content_html": "<img src='https://us-a.tapas.io/c/e6/84b96e86-6422-47e3-9337-eb01e2fbf48b.png'><br><img src='https://us-a.tapas.io/c/b2/25e9b3be-5f4a-4456-bc95-1ceb3f85411a.gif'>"
     }
   ]
 }

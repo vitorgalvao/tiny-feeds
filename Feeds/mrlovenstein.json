@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "wedge-issue",
+      "url": "https://tinyview.com/mrlovenstein/2026/07/29/wedge-issue",
+      "title": "Wedge Issue",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/5.png\">"
+    },
+    {
       "id": "cool-place",
       "url": "https://tinyview.com/mrlovenstein/2026/07/27/cool-place",
       "title": "Cool Place",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3842649",
       "title": "Irresistible",
       "content_html": "<img src='https://us-a.tapas.io/c/54/49f88770-3308-4d5f-806e-f60c564c9e6d.png'><br><img src='https://us-a.tapas.io/c/c0/eeda19be-bbf2-457d-b65f-088c239608b2.gif'>"
-    },
-    {
-      "id": "3837607",
-      "url": "https://tapas.io/episode/3837607",
-      "title": "Health Scare",
-      "content_html": "<img src='https://us-a.tapas.io/c/f7/d4cb0221-f6cf-449f-a517-5025ec84d13a.png'><br><img src='https://us-a.tapas.io/c/5f/51b4c5b6-2e02-4081-b89a-42c424ab9243.gif'>"
     }
   ]
 }

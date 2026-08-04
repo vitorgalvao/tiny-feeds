@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "pain-and-gain",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/03/pain-and-gain",
+      "title": "Pain and Gain",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/4.png\">"
+    },
+    {
       "id": "wedge-issue",
       "url": "https://tinyview.com/mrlovenstein/2026/07/29/wedge-issue",
       "title": "Wedge Issue",
@@ -26,12 +32,6 @@
       "url": "https://tapas.io/episode/3848799",
       "title": "Stendhal Syndrome",
       "content_html": "<img src='https://us-a.tapas.io/c/a8/b4f7d393-c03f-400d-b055-baee783aca0d.png'><br><img src='https://us-a.tapas.io/c/5f/b133c49f-aa4c-454b-b554-4d06ef913fd5.gif'>"
-    },
-    {
-      "id": "3842649",
-      "url": "https://tapas.io/episode/3842649",
-      "title": "Irresistible",
-      "content_html": "<img src='https://us-a.tapas.io/c/54/49f88770-3308-4d5f-806e-f60c564c9e6d.png'><br><img src='https://us-a.tapas.io/c/c0/eeda19be-bbf2-457d-b65f-088c239608b2.gif'>"
     }
   ]
 }

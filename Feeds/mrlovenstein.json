@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "the-installer",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/09/the-installer",
+      "title": "The Installer",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/09/the-installer/1.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/09/the-installer/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/09/the-installer/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/09/the-installer/4.png\">"
+    },
+    {
       "id": "pain-and-gain",
       "url": "https://tinyview.com/mrlovenstein/2026/08/03/pain-and-gain",
       "title": "Pain and Gain",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/07/23/old",
       "title": "Old",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/5.png\">"
-    },
-    {
-      "id": "3848799",
-      "url": "https://tapas.io/episode/3848799",
-      "title": "Stendhal Syndrome",
-      "content_html": "<img src='https://us-a.tapas.io/c/a8/b4f7d393-c03f-400d-b055-baee783aca0d.png'><br><img src='https://us-a.tapas.io/c/5f/b133c49f-aa4c-454b-b554-4d06ef913fd5.gif'>"
     }
   ]
 }

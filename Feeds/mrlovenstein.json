@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "what-are-you-doing",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing",
+      "title": "What Are You Doing?",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/5.png\">"
+    },
+    {
       "id": "the-installer",
       "url": "https://tinyview.com/mrlovenstein/2026/08/09/the-installer",
       "title": "The Installer",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/07/27/cool-place",
       "title": "Cool Place",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/5.png\">"
-    },
-    {
-      "id": "old",
-      "url": "https://tinyview.com/mrlovenstein/2026/07/23/old",
-      "title": "Old",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/23/old/5.png\">"
     }
   ]
 }

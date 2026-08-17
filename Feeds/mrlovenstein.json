@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "just",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/15/just",
+      "title": "Just...",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/7.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/7.png\">"
+    },
+    {
       "id": "what-are-you-doing",
       "url": "https://tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing",
       "title": "What Are You Doing?",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/07/29/wedge-issue",
       "title": "Wedge Issue",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/5.png\">"
-    },
-    {
-      "id": "cool-place",
-      "url": "https://tinyview.com/mrlovenstein/2026/07/27/cool-place",
-      "title": "Cool Place",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/27/cool-place/5.png\">"
     }
   ]
 }

@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "bless-you",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/19/bless-you",
+      "title": "Bless You",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/6.png\">"
+    },
+    {
       "id": "just",
       "url": "https://tinyview.com/mrlovenstein/2026/08/15/just",
       "title": "Just...",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/08/03/pain-and-gain",
       "title": "Pain and Gain",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/03/pain-and-gain/4.png\">"
-    },
-    {
-      "id": "wedge-issue",
-      "url": "https://tinyview.com/mrlovenstein/2026/07/29/wedge-issue",
-      "title": "Wedge Issue",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/07/29/wedge-issue/5.png\">"
     }
   ]
 }

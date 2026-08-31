@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "carefree",
+      "url": "https://tinyview.com/mrlovenstein/2026/08/30/carefree",
+      "title": "Carefree",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/4.png\">"
+    },
+    {
       "id": "sweat-the-small-stuff",
       "url": "https://tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff",
       "title": "Sweat the Small Stuff",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/08/15/just",
       "title": "Just...",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/7.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/15/just/7.png\">"
-    },
-    {
-      "id": "what-are-you-doing",
-      "url": "https://tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing",
-      "title": "What Are You Doing?",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/11/what-are-you-doing/5.png\">"
     }
   ]
 }

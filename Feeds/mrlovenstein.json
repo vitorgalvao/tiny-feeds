@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "economaniacal",
+      "url": "https://tinyview.com/mrlovenstein/2026/09/07/economaniacal",
+      "title": "Economaniacal",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/5.png\">"
+    },
+    {
       "id": "boof",
       "url": "https://tinyview.com/mrlovenstein/2026/09/02/boof",
       "title": "Boof",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/08/23/face-off",
       "title": "Face Off",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/5.png\">"
-    },
-    {
-      "id": "bless-you",
-      "url": "https://tinyview.com/mrlovenstein/2026/08/19/bless-you",
-      "title": "Bless You",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/19/bless-you/6.png\">"
     }
   ]
 }

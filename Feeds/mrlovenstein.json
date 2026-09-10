@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "quiet",
+      "url": "https://tinyview.com/mrlovenstein/2026/09/09/quiet",
+      "title": "Quiet",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/7.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/7.png\">"
+    },
+    {
       "id": "economaniacal",
       "url": "https://tinyview.com/mrlovenstein/2026/09/07/economaniacal",
       "title": "Economaniacal",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff",
       "title": "Sweat the Small Stuff",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/5.png\">"
-    },
-    {
-      "id": "face-off",
-      "url": "https://tinyview.com/mrlovenstein/2026/08/23/face-off",
-      "title": "Face Off",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/23/face-off/5.png\">"
     }
   ]
 }

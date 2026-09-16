@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "drinking-the-kool-aid",
+      "url": "https://tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid",
+      "title": "Drinking the Kool-Aid",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/5.png\">"
+    },
+    {
       "id": "quiet",
       "url": "https://tinyview.com/mrlovenstein/2026/09/09/quiet",
       "title": "Quiet",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/08/30/carefree",
       "title": "Carefree",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/4.png\">"
-    },
-    {
-      "id": "sweat-the-small-stuff",
-      "url": "https://tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff",
-      "title": "Sweat the Small Stuff",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/26/sweat-the-small-stuff/5.png\">"
     }
   ]
 }

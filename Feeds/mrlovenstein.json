@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "change",
+      "url": "https://tinyview.com/mrlovenstein/2026/09/17/change",
+      "title": "Change",
+      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/5.png\">"
+    },
+    {
       "id": "drinking-the-kool-aid",
       "url": "https://tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid",
       "title": "Drinking the Kool-Aid",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/09/02/boof",
       "title": "Boof",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/02/boof/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/02/boof/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/02/boof/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/02/boof/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/02/boof/5.png\">"
-    },
-    {
-      "id": "carefree",
-      "url": "https://tinyview.com/mrlovenstein/2026/08/30/carefree",
-      "title": "Carefree",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/08/30/carefree/4.png\">"
     }
   ]
 }

@@ -15,19 +15,11 @@ readonly tmp_file="$(mktemp)"
 }' 'The Other End' 'https://tinyview.com/the-other-end/' > "${feed_file}"
 
 # Strategy to get feed details
-readonly source_url='https://tinyview.com/the-other-end/feed.rss'
-readonly top_item="$(curl --silent "${source_url}" | xmllint --xpath '/rss/channel/item[1]' -)"
-
-# Exit early if item has publication date in the future (not available yet)
-readonly top_date="$(xmllint --xpath 'string(/item/pubDate)' - <<< "${top_item}")"
-readonly top_epoch="$(date -d "${top_date}" '+%s' || date -j -f "%a, %d %b %Y %H:%M:%S %Z" "${top_date}" '+%s')" # Handle both GNU and BSD date
-[[ "$(date '+%s')" -lt "${top_epoch}" ]] && exit 0
-
-readonly top_title="$(xmllint --xpath 'string(/item/title)' - <<< "${top_item}")"
-readonly top_url="$(xmllint --xpath 'string(/item/link)' - <<< "${top_item}")"
-readonly top_id="$(awk -F '/' '{print $NF}' <<< "${top_url}")"
-readonly top_contents="$(curl --silent "${top_url}")"
-readonly top_media="$(xmllint --html --xpath '//div[@id="main-content-scroll"]//div[@class="mt-5"]//img[not(@src = preceding::img/@src)]/@src' - <<< "${top_contents}" 2>/dev/null | sed 's/^/<img/;s/$/>/')"
+readonly source_url='https://www.patreon.com/api/collection/2410855?include=posts&fields%5Bpost%5D=title,url&json-api-version=1.0'
+readonly top_entry="$(curl --silent "${source_url}" | jq '[.included[]? | select(.type == "post")] | first')"
+readonly top_id="$(jq --raw-output '.id' <<< "${top_entry}")"
+readonly top_url="$(jq --raw-output '.attributes.url' <<< "${top_entry}")"
+readonly top_title="$(jq --raw-output '.attributes.title' <<< "${top_entry}")"
 
 # Exit early if item already in feed
 [[ "$(jq --raw-output '.items[0].id' "${feed_file}")" == "${top_id}" ]] && exit 0
@@ -37,8 +29,7 @@ jq \
   --arg id "${top_id}" \
   --arg url "${top_url}" \
   --arg title "${top_title}" \
-  --arg html "${top_media}" \
-  '.items = ([{ id: $id, url: $url, title: $title, content_html: $html }] + (.items // [])) | .items = (.items[0:5])' \
+  '.items = ([{ id: $id, url: $url, title: $title }] + (.items // [])) | .items = (.items[0:5])' \
   "${feed_file}" > "${tmp_file}"
 
 mv "${tmp_file}" "${feed_file}"

@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "path-to-success",
+      "url": "https://tinyview.com/mrlovenstein/2026/10/26/path-to-success",
+      "title": "Path to Success",
+      "content_html": ""
+    },
+    {
       "id": "book-vs-phone",
       "url": "https://tinyview.com/mrlovenstein/2026/10/05/book-vs-phone",
       "title": "Book vs Phone",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/09/09/quiet",
       "title": "Quiet",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/7.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/6.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/09/quiet/7.png\">"
-    },
-    {
-      "id": "economaniacal",
-      "url": "https://tinyview.com/mrlovenstein/2026/09/07/economaniacal",
-      "title": "Economaniacal",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/07/economaniacal/5.png\">"
     }
   ]
 }

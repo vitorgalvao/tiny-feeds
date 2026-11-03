@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "kindness",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/02/kindness",
+      "title": "Kindness",
+      "content_html": ""
+    },
+    {
       "id": "asocial-media",
       "url": "https://tinyview.com/mrlovenstein/2026/10/29/asocial-media",
       "title": "Asocial Media",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/09/17/change",
       "title": "Change",
       "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/5.png\">"
-    },
-    {
-      "id": "drinking-the-kool-aid",
-      "url": "https://tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid",
-      "title": "Drinking the Kool-Aid",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/2.jpg\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/15/drinking-the-kool-aid/5.png\">"
     }
   ]
 }

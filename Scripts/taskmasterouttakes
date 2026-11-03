@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+# Local file setup
+readonly program="$(realpath "${0}")"
+readonly feeds_dir="$(dirname "$(dirname "${program}")")/Feeds"
+readonly feed_file="${feeds_dir}/$(basename "${program}").json"
+readonly tmp_file="$(mktemp)"
+
+# Initial feed setup
+[[ -f "${feed_file}" ]] || printf '{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "%s",
+  "home_page_url": "%s",
+  "items": []
+}' 'Taskmaster Outtakes' 'https://www.youtube.com/@Taskmaster/shorts' > "${feed_file}"
+
+# Strategy to get feed details
+readonly source_url='https://www.youtube.com/feeds/videos.xml?playlist_id=UUSHT5C7yaO3RVuOgwP8JVAujQ'
+readonly new_items="$(
+  curl --silent "${source_url}" \
+    | jq \
+      --raw-input \
+      --slurp \
+      '[
+        capture("<yt:videoId>(?<id>[^<]*)</yt:videoId>.*?<title>(?<title>[^<]*)</title>"; "gp")
+        | select(.title | test("#outtake"; "i"))
+        | "https://www.youtube.com/watch?v=\(.id)" as $url
+        | {
+            id: $url,
+            url: $url,
+            title: .title,
+            content_html: "<img src=\"https://i.ytimg.com/vi/\(.id)/hqdefault.jpg\" />"
+          }
+      ]'
+)"
+
+# Replace feed
+jq \
+  --argjson new_items "${new_items}" \
+  '.items = $new_items' \
+  "${feed_file}" > "${tmp_file}"
+
+mv "${tmp_file}" "${feed_file}"

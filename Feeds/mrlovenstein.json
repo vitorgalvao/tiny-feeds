@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "hounded",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/05/hounded",
+      "title": "Hounded",
+      "content_html": ""
+    },
+    {
       "id": "kindness",
       "url": "https://tinyview.com/mrlovenstein/2026/11/02/kindness",
       "title": "Kindness",
@@ -26,12 +32,6 @@
       "url": "https://tinyview.com/mrlovenstein/2026/10/05/book-vs-phone",
       "title": "Book vs Phone",
       "content_html": ""
-    },
-    {
-      "id": "change",
-      "url": "https://tinyview.com/mrlovenstein/2026/09/17/change",
-      "title": "Change",
-      "content_html": "<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/1.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/5.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/2.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/3.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/4.png\">\n<img src=\"https://cdn.tinyview.com/mrlovenstein/2026/09/17/change/5.png\">"
     }
   ]
 }

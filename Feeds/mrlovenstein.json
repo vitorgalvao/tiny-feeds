@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "future-me",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/09/future-me",
+      "title": "Future Me",
+      "content_html": ""
+    },
+    {
       "id": "hounded",
       "url": "https://tinyview.com/mrlovenstein/2026/11/05/hounded",
       "title": "Hounded",
@@ -25,12 +31,6 @@
       "id": "path-to-success",
       "url": "https://tinyview.com/mrlovenstein/2026/10/26/path-to-success",
       "title": "Path to Success",
-      "content_html": ""
-    },
-    {
-      "id": "book-vs-phone",
-      "url": "https://tinyview.com/mrlovenstein/2026/10/05/book-vs-phone",
-      "title": "Book vs Phone",
       "content_html": ""
     }
   ]

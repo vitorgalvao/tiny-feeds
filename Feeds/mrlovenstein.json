@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "end-game",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/12/end-game",
+      "title": "End Game",
+      "content_html": ""
+    },
+    {
       "id": "future-me",
       "url": "https://tinyview.com/mrlovenstein/2026/11/09/future-me",
       "title": "Future Me",
@@ -25,12 +31,6 @@
       "id": "asocial-media",
       "url": "https://tinyview.com/mrlovenstein/2026/10/29/asocial-media",
       "title": "Asocial Media",
-      "content_html": ""
-    },
-    {
-      "id": "path-to-success",
-      "url": "https://tinyview.com/mrlovenstein/2026/10/26/path-to-success",
-      "title": "Path to Success",
       "content_html": ""
     }
   ]

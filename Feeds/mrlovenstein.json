@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "hungry-boy",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/16/hungry-boy",
+      "title": "Hungry Boy",
+      "content_html": ""
+    },
+    {
       "id": "end-game",
       "url": "https://tinyview.com/mrlovenstein/2026/11/12/end-game",
       "title": "End Game",
@@ -25,12 +31,6 @@
       "id": "kindness",
       "url": "https://tinyview.com/mrlovenstein/2026/11/02/kindness",
       "title": "Kindness",
-      "content_html": ""
-    },
-    {
-      "id": "asocial-media",
-      "url": "https://tinyview.com/mrlovenstein/2026/10/29/asocial-media",
-      "title": "Asocial Media",
       "content_html": ""
     }
   ]

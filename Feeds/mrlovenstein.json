@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "the-eucharitz",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/19/the-eucharitz",
+      "title": "The Eucharitz",
+      "content_html": ""
+    },
+    {
       "id": "hungry-boy",
       "url": "https://tinyview.com/mrlovenstein/2026/11/16/hungry-boy",
       "title": "Hungry Boy",
@@ -25,12 +31,6 @@
       "id": "hounded",
       "url": "https://tinyview.com/mrlovenstein/2026/11/05/hounded",
       "title": "Hounded",
-      "content_html": ""
-    },
-    {
-      "id": "kindness",
-      "url": "https://tinyview.com/mrlovenstein/2026/11/02/kindness",
-      "title": "Kindness",
       "content_html": ""
     }
   ]

@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "long-i-stood-there",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/23/long-i-stood-there",
+      "title": "Long I Stood There",
+      "content_html": ""
+    },
+    {
       "id": "the-eucharitz",
       "url": "https://tinyview.com/mrlovenstein/2026/11/19/the-eucharitz",
       "title": "The Eucharitz",
@@ -25,12 +31,6 @@
       "id": "future-me",
       "url": "https://tinyview.com/mrlovenstein/2026/11/09/future-me",
       "title": "Future Me",
-      "content_html": ""
-    },
-    {
-      "id": "hounded",
-      "url": "https://tinyview.com/mrlovenstein/2026/11/05/hounded",
-      "title": "Hounded",
       "content_html": ""
     }
   ]

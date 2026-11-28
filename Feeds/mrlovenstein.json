@@ -4,6 +4,12 @@
   "home_page_url": "https://tapas.io/series/MrLovenstein/info",
   "items": [
     {
+      "id": "maybe-next-time",
+      "url": "https://tinyview.com/mrlovenstein/2026/11/26/maybe-next-time",
+      "title": "Maybe Next Time",
+      "content_html": ""
+    },
+    {
       "id": "long-i-stood-there",
       "url": "https://tinyview.com/mrlovenstein/2026/11/23/long-i-stood-there",
       "title": "Long I Stood There",
@@ -25,12 +31,6 @@
       "id": "end-game",
       "url": "https://tinyview.com/mrlovenstein/2026/11/12/end-game",
       "title": "End Game",
-      "content_html": ""
-    },
-    {
-      "id": "future-me",
-      "url": "https://tinyview.com/mrlovenstein/2026/11/09/future-me",
-      "title": "Future Me",
       "content_html": ""
     }
   ]

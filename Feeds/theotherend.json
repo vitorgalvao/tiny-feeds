@@ -4,6 +4,11 @@
   "home_page_url": "https://tinyview.com/the-other-end/",
   "items": [
     {
+      "id": "175928918",
+      "url": "https://www.patreon.com/TheOtherEnd/posts/catapult-story-175928918",
+      "title": "A catapult story"
+    },
+    {
       "id": "175928859",
       "url": "https://www.patreon.com/TheOtherEnd/posts/power-of-flight-175928859",
       "title": "The power of flight"
@@ -22,11 +27,6 @@
       "id": "174609611",
       "url": "https://www.patreon.com/TheOtherEnd/posts/backyards-174609611",
       "title": "Backyards"
-    },
-    {
-      "id": "173895551",
-      "url": "https://www.patreon.com/TheOtherEnd/posts/halloween-2026-173895551",
-      "title": "Halloween 2026"
     }
   ]
 }
